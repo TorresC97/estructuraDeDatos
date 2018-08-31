@@ -10,6 +10,6 @@ int sumar (int *elementosArreglo, int tamanioArreglo){
 int main (int argc, char *argv){
     int elementos[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     //int resultado = sumar(elementos);
-    printf("%i",sumar(elementos,10)); /*refactorice*/
+    printf("Suma del Arreglo: %i \n",sumar(elementos,10)); /*refactorice*/
     return 0;
 }
